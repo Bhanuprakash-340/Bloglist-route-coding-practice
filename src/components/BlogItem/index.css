@@ -1,0 +1,45 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+}
+
+.name-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: normal;
+  margin: 0px;
+}
+
+.date {
+  color: #9aa5b1;
+  font-size: normal;
+  font-weight: normal;
+  margin: 0px;
+  line-height: 20px;
+}
+
+.description {
+  color: #9aa5b1;
+  font-size: normal;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #9aa5b1;
+}
